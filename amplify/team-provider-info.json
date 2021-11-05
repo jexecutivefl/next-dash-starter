@@ -1,0 +1,26 @@
+{
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-robotbuyer-main-142438-authRole",
+      "UnauthRoleArn": "arn:aws:iam::908072118105:role/amplify-robotbuyer-main-142438-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::908072118105:role/amplify-robotbuyer-main-142438-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-robotbuyer-main-142438-deployment",
+      "UnauthRoleName": "amplify-robotbuyer-main-142438-unauthRole",
+      "StackName": "amplify-robotbuyer-main-142438",
+      "StackId": "arn:aws:cloudformation:us-east-1:908072118105:stack/amplify-robotbuyer-main-142438/d03ab3b0-3a77-11ec-91de-0a829481a42d",
+      "AmplifyAppId": "d3cayb74goxnn4"
+    },
+    "categories": {
+      "auth": {
+        "robotbuyer47491ae3": {}
+      },
+      "function": {
+        "bestfindps5": {
+          "deploymentBucketName": "amplify-robotbuyer-main-142438-deployment",
+          "s3Key": "amplify-builds/bestfindps5-322b5568534661685169-build.zip"
+        }
+      }
+    }
+  }
+}

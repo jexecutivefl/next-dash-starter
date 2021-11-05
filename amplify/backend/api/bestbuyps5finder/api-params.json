@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/ps5/console",
+      "lambdaFunction": "bestbuyps5finder",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/ps5/console"
+    }
+  ],
+  "resourceName": "bestbuyps5finder",
+  "apiName": "bestbuyps5finder",
+  "functionArns": [
+    {
+      "lambdaFunction": "bestbuyps5finder"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-robotbuyer-main-142438-authRole",
+    "unAuthRoleName": "amplify-robotbuyer-main-142438-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "bestbuyps5finder",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
